@@ -56,4 +56,11 @@ DEVICES ={
             "auth_strict_key": False,
             "transport": "asyncssh",
             },
+        "IST-CORE-ISG-02-2": {
+	    "host": "10.139.67.22",
+            "auth_username": auth_username,
+            "auth_password": auth_password,
+            "auth_strict_key": False,
+            "transport": "asyncssh",
+            }	
         }
