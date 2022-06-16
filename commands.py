@@ -13,6 +13,7 @@ COMMANDS = {
 			"show memory statistics",
 			"show memory failures alloc ",
 			"show memory summary",
+			"show process memory platform sorted"
 		],
 		"subscriber": [
 			"show call admission statistics",
@@ -32,9 +33,11 @@ COMMANDS = {
 			"show platform hardware qfp active datapath utilization summary",
 			"show platform software process slot RP active monitor cycles 2 | inc Cpu|Mem",
 			"show platform software object-manager fp active statistics",
+			"show platform software process list R0 sort memory"
 		],
 
 		"events": [
+			"show logging",
 			f"show monitor event-trace subscriber all-traces merged all | inc {day_filter}"
 			]
 		
